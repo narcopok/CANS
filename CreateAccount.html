@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CreateAccount</title>
+</head>
+<body>
+    <div>
+        <h1>CANS</h1>
+        <p>Welcome to CANS! Please create an account to get started.</p>
+        <h2>Create Account</h2>
+        
+        <form action="/signup" method="POST">
+            
+            <div>
+                <label for="userName">Username</label>
+                <input type="text" id="userName" name="userName" placeholder="Username" required>
+            </div>
+
+            <div>
+                <label for="email">Email Address</label>
+                <input type="email" id="email" name="email" placeholder="name@example.com" required>
+            </div>
+
+            <div>
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" placeholder="Minimum 8 characters" minlength="8" required>
+            </div>
+
+            <button type="submit">Sign Up</button>
+
+            <div>
+                <p>Already have an account? <a href="Landing Page.html">Log In</a></p>
+            </div>
+            
+        </form>
+    </div>
+
+</body>
+<footer>2026 CANS. All Rights Reserved <a href="About.html">About</a> </footer>
+</html>

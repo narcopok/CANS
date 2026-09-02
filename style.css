@@ -1,0 +1,266 @@
+body.LandingPage {
+  background-image: url(imgs/IMG_4859.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed; /* keeps image fixed while scrolling */
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;      /* centers the pair as a group */
+  align-items: center;          /* centers vertically */
+  gap: 60px;                    /* space between left box and login box */
+  font-family: Arial, sans-serif;
+  padding-bottom: 60px;         /* leaves room so footer doesn't overlap */
+}
+
+/* Left box */
+.side-box {
+  width: 450px;
+  height: 500px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.4);
+  background: rgba(255, 255, 255, 0.15);   /* frosted tint */
+  backdrop-filter: blur(12px);              /* the actual "frost" blur */
+  border: 1px solid rgba(255, 255, 255, 0.2); /* subtle glass edge */
+  color: #fff;
+  padding: 30px;
+  box-sizing: border-box;
+}
+.side-box h1 {
+  font-family: 'Orbitron', sans-serif;
+  color: #CC3316;
+  text-align: center;
+  margin-top: 10px;
+  font-size: 36px;
+}
+.side-box p {
+  color: #333;
+  text-align: center;
+  margin: 20px 30px;
+  font-size: 50px;
+}
+/* Login box */
+.login-box {
+  width: 500px;
+  padding: 50px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0,0,0,1);
+  background: rgba(255, 255, 255, 0.15);   /* frosted tint */
+  backdrop-filter: blur(12px);              /* the actual "frost" blur */
+  border: 1px solid rgba(255, 255, 255, 0.2); /* subtle glass edge */
+  text-align: center;
+}
+
+.login-box h1 {
+  font-family: 'Orbitron', sans-serif;
+  margin-bottom: 40px;
+  color: #CC3316;
+  font-size: 50px;
+}
+
+.login-box input {
+  width: 100%;
+  padding: 20px;
+  margin: 16px 0;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.login-box button {
+  width: 100%;
+  padding: 20px;
+  margin-top: 10px;
+  background: #333;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.login-box button:hover {
+  background: #555;
+}
+
+.login-box p {
+  margin-top: 15px;
+}
+
+.login-box a {
+  color: #333;
+  text-decoration: none;
+}
+body.Home{
+  background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(imgs/IMG_4859.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed; /* keeps image fixed while scrolling */
+  margin: 0;
+  min-height: 100vh;
+
+  .top-nav {
+    padding: 20px;
+  }
+
+  .top-nav a {
+    color: #bdbec1;
+    background: #333;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+    padding: 10px;
+    width: 30px;
+    height: 15px;
+    text-align: center;
+    
+  }
+
+  h1 {
+    text-align: center;
+    font-family: 'Orbitron', sans-serif;
+    color: #CC3316;
+    font-size: 48px;
+    margin: 20px 0 50px;
+  }
+
+  .card-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    padding: 0 40px 60px;
+  }
+
+  .card{
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+    padding: 30px;
+    width: 100%;
+    height: 300px;
+    max-width: 280px;
+    min-width: 200px;
+    background-size: cover;
+    background-position: center; 
+    text-align: center;
+    transition: transform 0.2s ease;
+  }
+
+  .watch-card {
+    background-image: url(imgs/IMG_4861.JPG);
+  }
+
+  .play-card {
+    background-image: url(imgs/IMG_4860.JPG);
+  }
+
+  .jam-card {
+    background-image: url(imgs/IMG_4862.JPG);
+  }
+
+  .card:hover {
+    transform: translateY(-6px);
+  }
+
+  .badge {
+    display: inline-block;
+    color: #05baba;
+    font-weight: bold;
+    padding: 6px 18px;
+    border-radius: 20px;
+    margin-bottom: 15px;
+    font-size: 50px;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Orbitron', sans-serif;
+  }
+
+  .card p {
+    color: hsl(0, 0%, 20%);
+    font-size: 16px;
+    margin: 0;
+  }
+}
+body.aboutpage {
+  background: #111;
+  color: #fff;
+  min-height: 100vh;
+  margin: 0;
+  padding: 60px 40px;
+  font-family: Arial, sans-serif;
+  box-sizing: border-box;
+
+  body.aboutpage > a {
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin-bottom: 40px;
+  }
+
+  body.aboutpage > a:hover {
+    color: #CC3316;
+  }
+
+  .about-container {
+    max-width: 700px;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .about-container h1 {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 48px;
+    color: #CC3316;
+    margin-bottom: 30px;
+  }
+
+  .about-container p {
+    font-size: 17px;
+    line-height: 1.7;
+    color: #ddd;
+    margin-bottom: 20px;
+    text-align: left;
+  }
+
+  .tags {
+    margin-top: 30px;
+  }
+
+  .tag {
+    display: inline-block;
+    background: #222;
+    padding: 6px 16px;
+    border-radius: 20px;
+    font-size: 13px;
+    color: #ccc;
+    margin: 4px;
+  }
+}
+
+
+
+/* Footer */
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 15px 0;
+  background: #333;
+  color: #fff;
+  text-align: center;
+  font-size: 14px;
+}
+
+footer a {
+  color: #fff;
+  text-decoration: underline;
+  margin-left: 8px;
+}
+
+footer a:hover {
+  color: #ccc;
+}
