@@ -6,11 +6,39 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jam</title>
 </head>
-<body>
-    <a href="Home.html">HOME</a>
-    <!-- embeded sites -->
-     <!-- chat box -->
-    
+<body class="Play">
+<a href="Home.html" class="home-btn">HOME</a>
+<h1 class="play-page">Jam</h1>
+
+<div class="play-layout">
+  <div class="player-wrap">
+  </div>
+
+<aside class="chat-panel">
+    <div class="chat-header">
+      <span>Live Chat <small id="roomLabel"></small></span>
+      <button id="inviteBtn" type="button">Invite</button>
+    </div>
+
+    <div class="invite-box" id="inviteBox" hidden>
+      <label for="inviteLink">Invite link</label>
+      <div class="invite-row">
+        <input id="inviteLink" type="text" readonly>
+        <button id="copyBtn" type="button">Copy</button>
+      </div>
+      <label for="nameInput">Your name</label>
+      <input id="nameInput" type="text" maxlength="20" placeholder="Guest">
+    </div>
+
+    <div class="chat-messages" id="chatMessages"></div>
+
+    <div class="chat-input">
+      <input id="chatText" type="text" placeholder="Say something..." maxlength="200" autocomplete="off">
+      <button id="sendBtn" type="button">Send</button>
+    </div>
+  </aside>
+</div>
+
 </body>
 <footer>2026 CANS. All Rights Reserved <a href="About.html">About</a> </footer>
 </html>
