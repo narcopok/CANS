@@ -3,25 +3,25 @@ body.LandingPage {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  background-attachment: fixed; /* keeps image fixed while scrolling */
+  background-attachment: fixed; 
   margin: 0;
   min-height: 100vh;
   display: flex;
-  justify-content: center;      /* centers the pair as a group */
-  align-items: center;          /* centers vertically */
-  gap: 60px;                    /* space between left box and login box */
+  justify-content: center;      
+  align-items: center;          
+  gap: 60px;                    
   font-family: Arial, sans-serif;
-  padding-bottom: 60px;         /* leaves room so footer doesn't overlap */
+  padding-bottom: 60px;         
   /* Left box */
   .side-box {
     width: 450px;
     height: 500px;
     border-radius: 12px;
     box-shadow: 0 8px 24px rgba(0, 0, 0, 0.5);
-    background: rgba(28, 32, 39, 0.6);            /* #1C2027 at 60% */
-    -webkit-backdrop-filter: blur(12px);          /* Safari */
-    backdrop-filter: blur(12px);                  /* the frost */
-    border: 1px solid rgba(255, 255, 255, 0.08);  /* subtle glass edge */
+    background: rgba(28, 32, 39, 0.6);            
+    -webkit-backdrop-filter: blur(12px);         
+    backdrop-filter: blur(12px);                 
+    border: 1px solid rgba(255, 255, 255, 0.08);  
     padding: 30px;
     box-sizing: border-box;
   }
@@ -44,10 +44,10 @@ body.LandingPage {
     padding: 50px;
     border-radius: 10px;
     box-shadow: 0 8px 24px rgba(0, 0, 0, 0.5);
-    background: rgba(28, 32, 39, 0.6);            /* #1C2027 at 60% */
-    -webkit-backdrop-filter: blur(12px);          /* Safari */
-    backdrop-filter: blur(12px);                  /* the frost */
-    border: 1px solid rgba(255, 255, 255, 0.08);  /* subtle glass edge */
+    background: rgba(28, 32, 39, 0.6);            
+    -webkit-backdrop-filter: blur(12px);          
+    backdrop-filter: blur(12px);                  
+    border: 1px solid rgba(255, 255, 255, 0.08);  
     text-align: center;
   }
 
@@ -116,7 +116,7 @@ body.Home {
     margin: 0;
     min-height: 100vh;
 
-  /* nav: button top-left, title centered */
+ 
   .top-nav {
     position: relative;
     padding: 20px;
@@ -219,10 +219,10 @@ body.CreateAccount {
     padding: 50px;
     border-radius: 10px;
     box-shadow: 0 8px 24px rgba(0, 0, 0, 0.5);
-    background: rgba(28, 32, 39, 0.6);            /* #1C2027 at 60% */
-    -webkit-backdrop-filter: blur(12px);          /* Safari */
-    backdrop-filter: blur(12px);                  /* the frost */
-    border: 1px solid rgba(255, 255, 255, 0.08);  /* subtle glass edge */
+    background: rgba(28, 32, 39, 0.6);            
+    -webkit-backdrop-filter: blur(12px);          
+    backdrop-filter: blur(12px);                  
+    border: 1px solid rgba(255, 255, 255, 0.08);  
     text-align: center;
     margin: auto;
     margin-top: 60px;
@@ -239,8 +239,8 @@ body.CreateAccount {
   font-size: 25px;
   color: #A6ABB4;
   text-transform: uppercase;
-  display: block;      /* makes the label take its own line */
-  text-align: left;    /* aligns text to the left */
+  display: block;      
+  text-align: left;    
   }
 
   .create-account-box input {
@@ -306,7 +306,7 @@ body.aboutpage {
   font-family: 'Sora', Arial, sans-serif;
   box-sizing: border-box;
 
-  /* HOME: top-left, boxed (same as Watch page) */
+  
   .home-btn {
     position: absolute;
     top: 20px;
